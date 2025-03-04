@@ -32,7 +32,7 @@
           </div>
           <div class="card-body">
             <!-- Formulario de compra -->
-            <form action="{{ route('comprar') }}" method="POST">
+            <form action="#" method="POST">
               @csrf
               <!-- Producto -->
               <div class="mb-3">
