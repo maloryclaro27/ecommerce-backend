@@ -42,7 +42,7 @@
     .header-content {
       position: relative;
       z-index: 2;
-      max-width: 500px;
+      max-width: 800px;
       margin-left: 50px;
       display: flex;
       align-items: center;
@@ -112,4 +112,36 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<!-- Modal con información adicional (opcional) -->
+<div class="modal fade" id="modalDetalles" tabindex="-1" aria-labelledby="modalDetallesLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalDetallesLabel">Detalles del Producto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          • 75% poliéster, 20% rayón, 5% spandex<br>
+          • Lavado a máquina<br>
+          • Origen: Importado
+        </p>
+        <p>
+          Estos pantalones de yoga combinan comodidad y estilo. 
+          Ideales para usar tanto en casa como en el gimnasio.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (necesario para el funcionamiento de los modales, etc.) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
 
