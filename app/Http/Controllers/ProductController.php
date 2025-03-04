@@ -7,20 +7,15 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     public function index(){ // este metodo es para listar los productos
-        echo "LISTADO DE PRODUCTOS DE ECOMMERCE";
+        return view('products.index');
     } 
 
     public function create(){ //formulario crear un producto
-        echo "FORMULARIO PARA CREAR UN PRODUCTO";
+        return view('products.create');
 
     }
 
-    public function show($name, $categoria = ){ // mostrar un producto el detalle 
-        if ($categoria == null){
-            echo "EL PRODUCTO ES: $name";
-        }else{
-            echo "EL PRODUCTO ES $name, y su categoria es $categoria";
-        }
-
-    }
+    public function show(){
+        return view('products.show');
+    } 
 }
