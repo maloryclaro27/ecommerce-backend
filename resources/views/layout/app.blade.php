@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Formulario de Compra</title>
+  <title>@yield('title')</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -32,7 +32,7 @@
           </div>
           <div class="card-body">
             <!-- Formulario de compra -->
-            <form action="#" method="POST">
+            <form action="{{ route('comprar') }}" method="POST">
               @csrf
               <!-- Producto -->
               <div class="mb-3">
