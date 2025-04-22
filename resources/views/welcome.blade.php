@@ -102,7 +102,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Ecommerce</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ url('/perfil') }}">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ url('/perfil/intereses') }}">Promociones</a></li>
           <li class="nav-item"><a class="nav-link" href="{{ url('/perfil/habilidades') }}">Carrito</a></li>
